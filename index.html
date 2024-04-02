@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="./styles/style.css" >
 </head>
 <body>
-    <heather></heather>
+    <heather class = "cabecalho">
+        <nav class = "cabecalho__menu">
+            <a class = "cabecalho__menu__link" href = "index.html">Home</a>
+            <a class = "cabecalho__menu__link" href = "about.html">Sobre mim</a>
+        </nav>
+    </heather>
     <main class = "apresentacao">
         <section class = "apresentacao__conteudo">
             <h1 class = "apresentacao__conteudo__titulo"> 
@@ -21,13 +26,33 @@
                 designers a colocarem em prática boas ideias. Vamos conversar?
             </p>
             <div class = "apresentacao__links">
-                <a class = "apresentacao__links__link" href = "https://instagram.com/sofiaxvaz">Instagram</a>
-                <a class = "apresentacao__links__link" href = "https://github.com/sofiadocx">GitHub</a>
+                <h2 class = "apresentacao_links_subtitulo"> 
+                    Acesse minhas redes:
+                </h2>
+                <a class = "apresentacao__links__link" href ="https://github.com/sofidocx" >
+                    <img src = "./assets/github.png" >
+                    Github
+                </a>
+                <a class = "apresentacao__links__link" href = "https://instagram.com/sofiaxvaz/" > 
+                    <img src="./assets/instagram.png" >
+                    Instagram 
+                </a>
+                <a class = "apresentacao__links__link" href = "https://www.linkedin.com/in/sofia-vaz-8451002a3/"> 
+                    <img src="./assets/linkedin.png" href = "https:/linkedin/sofiaxvaz"> 
+                    Linkedin 
+                </a>
+               
             </div>
          </section>
     
-        <img src = "Imagem.png" alt ="Imagem de Profile">
+        <img class = "apresentacao__imagem" src = "./assets/Imagem.png" alt ="Imagem de Profile">
+     
     </main>
-    <footer></footer>
+
+        <div>
+            <footer>
+                Desenvolvido por Sofia
+            </footer>
+        </div>
 </body>
 </html>
